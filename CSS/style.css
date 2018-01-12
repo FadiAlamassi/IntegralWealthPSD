@@ -1,0 +1,427 @@
+body
+{
+    background-image: url(../images/background.png);
+}
+/*Start Main Rulez*/
+.container
+{
+    width: 1154px;
+    margin: auto;
+    position: relative;
+}
+.clearfix{clear: both;}
+/*End Main Rulez*/
+/* Start Header */
+.nav
+{
+    background-color: #262526;
+    height: 110px;
+    overflow: hidden;
+}
+.nav .logo
+{
+    float: left;
+}
+.nav .bar
+{
+    float: right;
+    overflow:hidden; 
+        
+}
+.nav .bar .contact
+{
+  overflow: hidden;
+    float: right;
+    color: #FFF;
+    font-size: 17.5px;
+
+}
+.nav .bar .contact p
+{
+    display: inline-block;
+    padding: 10px 10px 10px 0px;
+    margin: 12px 0px 0px 12px;
+    background-color: #424142;
+    height: 20px;
+    width: 188px;
+    
+}
+.nav .bar .contact p span
+{
+    padding: 10px;
+    background-color: #5a5a5a;
+    width: 48px;
+    height:35px
+}
+.nav .bar .contact >span
+{
+    padding: 10px;
+    padding-right: 30px;
+    margin: 12px 0 0;
+    background-color: #424142;
+    display: inline-block;
+}
+.nav .bar .list-bar
+{
+    margin: 0;
+    overflow: hidden;
+}
+.nav .bar .list-bar ul
+{
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 7px;
+}
+.nav .bar .list-bar ul li
+{
+    float: left;
+    padding: 10px 5px;
+}
+.nav .bar .list-bar ul li a
+{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 0;
+}
+.nav .bar .list-bar ul li a:hover
+{
+    border-bottom: 4px solid #f41429;
+    
+}
+.nav .bar .list-bar ul li.active
+{
+    border-bottom: 4px solid #f41429;
+    padding-bottom: 6px
+}
+
+.slider
+{
+    background-image: url(../images/slider.png);
+    background-size: cover;
+    height: 460px;
+}
+.slider .a
+{
+    background-image: url(../images/Layer-9.png);
+    height: inherit;
+    background-size: cover;
+}
+
+.slider .content 
+{
+    width: 945px;
+    margin: auto;
+    position: absolute;
+    top: 160px;
+    left: 80px;
+    color: #FFF;
+    
+}
+.slider .content .headtext
+{
+    width: 620px;
+}
+.slider .content .headtext h1
+{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 12px;
+    padding: 0;
+}
+.slider .content .headtext p
+{
+    font-size: 25px;
+    font-family: monospace;
+    margin-top: 0;
+    padding-top: 0;
+}
+.slider .content .proc
+{
+    overflow: hidden;
+    background-color: #f65b69;
+    margin: 0;
+    padding: 0;
+}
+.slider .content .proc div
+{
+    float: left;
+    width: 33.1%;
+   padding: 0;
+   margin-top: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.slider .content .proc div:nth-child(2)
+{
+    border-left: 2px solid #f9aab2;
+    border-right:  2px solid #f9aab2;
+    margin-top: 5px;
+}
+.slider .content .proc div h3
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin:4px 0 0;
+    font-size: 25px;
+}
+.slider .content .proc div p
+{
+    padding: 0 40px;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+.slider .content .proc:after
+{
+    content:'';
+     border-top: 35px #f65b69 solid;
+    border-right: 474px solid transparent;
+    border-left: 474px solid transparent;
+    display: block;
+    position: absolute;
+    bottom:-35px;
+    z-index: 5555555;
+    overflow: hidden;
+}
+/* End Header */
+
+/* Start About Us */
+.about-us
+{
+    margin-top: 100px;
+    padding: 20px;
+    
+}
+.about-us .container .who-are
+{
+    text-align: center;
+}
+.about-us .container .who-are h2
+{
+    padding: 5px;
+    margin: 0 0 25px;
+    text-transform: uppercase;
+    color: #f55a69;
+}
+.about-us .container .who-are p
+{
+    padding: 23px 100px;
+    background-color: #f0f0f0;
+    margin-bottom: 65px;
+    color: #4c4c4c;
+        line-height: 26px;
+
+}
+.about-us .container div + div
+{
+  overflow: hidden;
+}
+.about-us .container .our-process,.about-us .container .our-team
+{
+    float: left;
+    width: 48%;
+    border-bottom: 1px solid #f87d89;
+    border-top: 1px solid #f87d89;
+    padding-top: 5px;
+    padding-bottom:10px;
+    
+}
+.about-us .container .our-process div:first-of-type,
+.about-us .container .our-team div:first-of-type
+{
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+        padding-right: 10px;
+}
+.about-us .container img
+{
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin-top: 5px;
+    border-radius: 50%;
+    border: 5px solid #f55160;
+}
+.about-us .container .our-process div + div
+{
+    padding: 0 100px 15px 0px;
+    margin: 0;
+}
+.about-us .container  h3
+{
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #f55a69;
+    margin: 0;
+    font-size: 20px;
+}
+.about-us .container  p
+{
+    margin: 0;
+    color: #4c4c4c;
+    font-size: 16px;
+}
+
+
+.about-us .container .our-team
+{
+    margin-left: 4%;
+    
+}
+.about-us .container .our-team div + div
+{
+    padding: 0 100px 15px 0px;  
+}
+/* End About Us */
+
+/* Start Testimonials */
+.testimonials
+{
+    text-align: center;
+    background-color: #f75463;
+    padding: 90px 0 80px;
+    color: #FFF;
+
+}
+
+.testimonials .relative
+{
+    position: relative;
+}
+.testimonials h2
+{
+    font-size: 33.61px;
+    text-transform: uppercase;
+    margin: 0;
+    margin: 0;
+}
+.testimonials p
+{
+    text-transform: uppercase;
+    margin: 20px 150px;
+    font-style: italic;
+}
+.testimonials .relative:before
+{
+    content:'';
+     border-bottom: 35px #f75463 solid;
+    border-right: 470px solid transparent;
+    border-left: 470px solid transparent;
+    display: block;
+    position: absolute;
+   top: -125px;
+    left: 100px;
+    z-index: -1;
+}
+/* End Testimonials */
+.footer
+{
+    background-color: #303030;
+    margin: 0;
+    padding: 0;
+}
+.footer .container
+{
+    position: relative;
+}
+.footer .relative
+{ 
+    
+   overflow: hidden ;
+    margin: 0;
+    padding: 0;
+}
+.footer .relative:before
+{
+    content:'';
+     border-bottom: 35px #303030 solid;
+    border-right: 470px solid transparent;
+    border-left: 470px solid transparent;
+    display: block;
+    position: absolute;
+    top: -35px;
+    left: 100px;
+    z-index: 1;
+}
+.footer .links
+{
+    float: left;
+    width: 65%;
+    padding: 0 20px;
+    margin-top: 65px;
+    margin-bottom: 42px;
+}
+.footer .links div
+{
+    float: left;
+    width: 33.3333%;
+    padding: 0;
+    margin: 0;
+}
+.footer .links h3
+{
+    text-transform: uppercase;
+    color: #FFF;
+    margin: 0;
+}
+.footer .links div ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+.footer .links .two
+{
+    margin-top: 60px;
+    padding: 0;
+}
+.footer .links div ul li
+{
+    padding-bottom: 10px
+}
+.footer .links div ul li a
+{
+      text-decoration: none;
+    color: #acacac;
+    
+}
+.footer .logo-footer
+{
+    float: left;
+    padding: 20px;
+    text-align: center;
+}
+.footer .logo-footer div
+{
+    padding-top: 20px;
+}
+.footer .logo-footer p
+{
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer .logo-footer ul
+{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.footer .logo-footer ul li
+{
+    display: inline-block;
+    padding: 3px;
+    margin-top: 0;
+    
+}
+.footer .logo-footer ul li i
+{
+    font-size: 15px;
+    color: #ff3043;
+}
